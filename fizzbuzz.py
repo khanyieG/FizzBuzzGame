@@ -6,9 +6,14 @@ def divisible_of_3(user):
 
 def divisible_of_5(user):
     if user%5 == 0:
-        print("BUZZ")
+        print("BUZZ")       
+
+def divisible_of_3_and_5(user):
+    if (user%3 == 0 and user%5 == 0):
+        print("FizzBuzz")
 
 
 if __name__ == "__main__":
+    divisible_of_3_and_5(user)
     divisible_of_3(user)
     divisible_of_5(user)        
